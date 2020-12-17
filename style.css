@@ -1,0 +1,22 @@
+.header{
+    background-color: bisque  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background:white;
+    box-shadow:  0 0 10px 1px black ;
+}
